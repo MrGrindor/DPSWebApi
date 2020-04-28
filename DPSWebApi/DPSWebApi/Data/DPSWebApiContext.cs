@@ -22,9 +22,8 @@ namespace DPSWebApi.Data
         {
             modelBuilder.Entity<City>()
                 .HasOne(c => c.HomeTile)
-                .WithOne(t => t.CityOnTile);
-
-
+                .WithOne(t => t.CityOnTile)
+                .HasForeignKey<City>(c => c.HomeTileId);
         }
     }
 }
