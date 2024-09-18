@@ -1,0 +1,1 @@
+Basic .Net Web API for use with DPS. Originally meant to provide HTTP Endpoints for retrieving map data. Now defunct and will not be further developed please refer to https://github.com/Dynamic-Political-Simulator for any future DPS development.
